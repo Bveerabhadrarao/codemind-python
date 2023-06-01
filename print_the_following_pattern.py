@@ -1,7 +1,5 @@
 n=int(input())
-l='ABCDEFGHIJKLMNOPQRSTUVWXYZ'
-l=list(l)
 for i in range(n,0,-1):
-    for j in range(i):
-        print(l[i-1],end=" ")
-    print()
+    for j in range(1,i+1,1):
+        print(j,end="")
+    print() 
