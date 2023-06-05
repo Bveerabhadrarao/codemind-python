@@ -11,5 +11,3 @@ for i in range(c+1,c+100,1):
         break
 d=sm-c
 print(d)
-        
-    
